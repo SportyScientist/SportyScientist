@@ -4,7 +4,7 @@
 
 [Analysis of Differentiation Experiments](https://sportyscientist.github.io/MSC_Differentiation/)
 
-[Classification of MSCs and GCTB cells with Illumina Methylation arrays](https://sportyscientist.github.io/MSC_Differentiation/)
+[Classification of MSCs and GCTB cells with Illumina Methylation arrays](https://sportyscientist.github.io/GCTB_Classification/)
 
 [qPCR Results](https://sportyscientist.github.io/QPCR/)
 
