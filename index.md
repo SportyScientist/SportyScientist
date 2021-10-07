@@ -6,7 +6,6 @@
 
 [Classification of MSCs and GCTB cells with Illumina Methylation arrays](https://sportyscientist.github.io/GCTB_Classification/)
 
-[qPCR Results](https://sportyscientist.github.io/QPCR/)
 
 
 Public Data:
