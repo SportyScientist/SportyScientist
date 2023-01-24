@@ -31,6 +31,7 @@ linkedin_username: marlene-ganslmeier
 
 # About Section
 # about_title: About Me
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   I am a 26year old scientist from Germany. My Master started out as molecular biology - and indeed, for a big portion of it I pipetted all day long. Once Covid set in we were forced out of the labs and into the drylab - and I actually enjoyed it! 
   Now I'm trying to educate myself further and build a career as a full-fletched bioinformatician. While I do not have a computer science background, I believe I'm able to bridge the gap between the developers and biologists. 
