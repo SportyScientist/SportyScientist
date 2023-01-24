@@ -57,7 +57,7 @@ content:
           which I postulate could constitute the cell-of-origin.
 
       - layout: left
-        border: weak
+        #border: weak
         title: Universities of Salzburg and Linz
         caption: 2015 - 2018
         sub_title: B.Sc. Molecular Biosciences 
@@ -71,7 +71,7 @@ content:
     layout: list
     content: 
       - layout: left
-        border: weak
+        #border: weak
         title: University of Kyoto
         caption: 2019
         description: |
@@ -103,7 +103,7 @@ content:
           For my thesis I optimized the protocol for the 10X Multiome platform and generated data from GCTB tissue with this platform, as well as whole genome sequencing and methylome array data. I furthermore analysed the data and go on to describe the tumor microenviroment on a single cell level. 
 
       - layout: left
-        border: weak
+        #border: weak
         title: Lab Rotation
         caption: 2022
         sub_title: BioMedX GmbH Heidelberg
