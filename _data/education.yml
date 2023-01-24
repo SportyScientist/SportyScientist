@@ -1,0 +1,22 @@
+- layout: left
+  title: University of Heidelberg / DKFZ Heidelberg
+  caption: 2018 - 2022
+  sub_title: M.Sc. Molecular Biosciences (GPA 1.2)
+  quote: >
+    “Multiome Based Cell of Origin Mapping in Giant Cell Tumor of Bone”
+  description: | # this will include new lines to allow paragraphs
+    For my thesis I established the 10X Multiome technology in the lab and used it to analyse GCTB patient samples. 
+    Giant cell tumor of bone (GCTB) is a benign tumor that is driven by a hotspot mutation in the histone variant at position G34 in the histone variant H3.3, through an unknown molecular mechanism. Previous studies revealed that GCTB is highly heterogeneous, both intraand intertumoral, and its precise cellular origin is unclear. To address these challenges, I utilized Single-cell ATAC + Gene expression profiling and further integrated these results with reference data from osteogenic differentiation. Marker expression, transcription factor activity, gene set ontology analysis, and correlation to bulk data show that H3.3-G34W can lead to a different phenotype in each GCTB case which is resembled by a different stage of differentiation of the stromal cells. I identified four distinct stromal subpopulations, of which one resembles pre-osteoblasts, and three were more advanced in differentiation. While the more differentiated stromal populations differ in their identity between patients, every patient has a precursor-like population,
+    which I postulate could constitute the cell-of-origin.
+
+- layout: left
+  name: Universities of Salzburg and Linz
+  dates: 20015 - 2018
+  qualification: B.Sc. Molecular Biosciences (GPA 1.7)
+  quote: >
+    “The Impact of Exosome-Depleted FBS on the Proliferation and Differentiation Characteristics of SAOS-GFP and oMSC cells”
+
+  description: | # this will include new lines to allow paragraphs
+    “The Impact of Exosome-Depleted FBS on the Proliferation and Differentiation Characteristics of SAOS-GFP and oMSC cells”
+
+    This bachelor laid the foundation for my further education. It included a broad variety of topics, ranging from traditional cell biology to chemical analysis.
