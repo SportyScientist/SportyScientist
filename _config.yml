@@ -1,3 +1,143 @@
-theme: jekyll-theme-slate
-title: Welcome to SportyScientists homepage!
-description: I use workflowr to structure my analysis. These links lead to the workflowr sites!
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Marlene Ganslmeier
+title: Molecular Bioscience and Bioinformatics
+email: ganslmeier.marlene@gmail.com
+website: www.sportyscientist.github.io
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+#twitter_username: facespics
+github_username:  SportyScientist
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: marlene_gan
+linkedin_username: marlene-ganslmeier
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  
+
+  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+
+content:
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:  
+      - layout: left
+        title: University of Heidelberg / DKFZ Heidelberg
+        caption: 2018 - 2022
+        sub_title: M.Sc. Molecular Biosciences (GPA 1.2)
+        quote: >
+           “Multiome Based Cell of Origin Mapping in Giant Cell Tumor of Bone”
+        description: | # this will include new lines to allow paragraphs
+          For my thesis I established the 10X Multiome technology in the lab and used it to analyse GCTB patient samples. Giant cell tumor of bone (GCTB) is a benign tumor that is driven by a hotspot mutation in the histone variant at position G34 in the histone variant H3.3, through an unknown molecular mechanism. Previous studies revealed that GCTB is highly heterogeneous, both intraand intertumoral, and its precise cellular origin is unclear. To address these challenges, I utilized Single-cell ATAC + Gene expression profiling and further integrated these results with reference data from osteogenic differentiation. Marker expression, transcription factor activity, gene set ontology analysis, and correlation to bulk data show that H3.3-G34W can lead to a different phenotype in each GCTB case which is resembled by a different stage of differentiation of the stromal cells. I identified four distinct stromal subpopulations, of which one resembles pre-osteoblasts, and three were more advanced in differentiation. While the more differentiated stromal populations differ in their identity between patients, every patient has a precursor-like population,
+which I postulate could constitute the cell-of-origin.
+
+      - layout: left
+        name: Universities of Salzburg and Linz
+        dates: 20015 - 2018
+        qualification: B.Sc. Molecular Biosciences (GPA 1.7)
+        quote: >
+          “The Impact of Exosome-Depleted FBS on the Proliferation and Differentiation Characteristics of SAOS-GFP and oMSC cells”
+
+        description: | # this will include new lines to allow paragraphs
+          “The Impact of Exosome-Depleted FBS on the Proliferation and Differentiation Characteristics of SAOS-GFP and oMSC cells”
+
+          This bachelor laid the foundation for my further education. It included a broad variety of topics, ranging from traditional cell biology to chemical analysis.
+
+
+
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Super awesome project
+        link: github.com/sproogen
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: The Boring Company
+        link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Senior Network System Administrator
+        caption: November 2017 - Present
+        quote: >
+          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Rock climbing
+      - Gaming
+      - Knitting
+      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+      Look at this cool image  
+      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
