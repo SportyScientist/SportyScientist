@@ -44,7 +44,8 @@ content:
         border: weak
         title: University of Heidelberg / DKFZ Heidelberg
         caption: 2018 - 2022
-        sub_title: M.Sc. Molecular Biosciences (GPA 1.2)
+        sub_title: M.Sc. Molecular Biosciences
+          (GPA 1.2)
         quote: >
           “Multiome Based Cell of Origin Mapping in Giant Cell Tumor of Bone”
         description: | # this will include new lines to allow paragraphs
@@ -54,9 +55,10 @@ content:
 
       - layout: left
         border: weak
-        name: Universities of Salzburg and Linz
-        dates: 20015 - 2018
-        qualification: B.Sc. Molecular Biosciences (GPA 1.7)
+        title: Universities of Salzburg and Linz
+        caption: 20015 - 2018
+        sub_title: B.Sc. Molecular Biosciences 
+          (GPA 1.7)
         quote: >
           “The Impact of Exosome-Depleted FBS on the Proliferation and Differentiation Characteristics of SAOS-GFP and oMSC cells”
 
