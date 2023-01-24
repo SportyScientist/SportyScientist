@@ -31,8 +31,9 @@ linkedin_username: marlene-ganslmeier
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
+  Hello there! Thank you for visiting my resume.
+  
 
 # Projects Section
 # projects_title: Projects
