@@ -32,29 +32,48 @@ linkedin_username: marlene-ganslmeier
 # About Section
 # about_title: About Me
 about_content: | # this will include new lines to allow paragraphs
-  Hello there! Thank you for visiting my resume.
-  
+  I am a 26year old scientist from Germany. My Master started out as molecular biology - and indeed, for a big portion of it I pipetted all day long. Once Covid set in we were forced out of the labs and into the drylab - and I actually enjoyed it! 
+  Now I'm trying to educate myself further and build a career as a full-fletched bioinformatician. While I do not have a computer science background, I believe I'm able to bridge the gap between the developers and biologists. 
+  The tools I am currently most experienced with are <mark>R</mark> and <mark>Python</mark>.
 
-# Projects Section
-# projects_title: Projects
+content:
+  - title: Education
+    layout: list
+    content: 
+      - layout: left
+        border: weak
+        title: University of Heidelberg / DKFZ Heidelberg
+        caption: 2018 - 2022
+        sub_title: M.Sc. Molecular Biosciences (GPA 1.2)
+        quote: >
+          “Multiome Based Cell of Origin Mapping in Giant Cell Tumor of Bone”
+        description: | # this will include new lines to allow paragraphs
+          For my thesis I established the 10X Multiome technology in the lab and used it to analyse GCTB patient samples. 
+          Giant cell tumor of bone (GCTB) is a benign tumor that is driven by a hotspot mutation in the histone variant at position G34 in the histone variant H3.3, through an unknown molecular mechanism. Previous studies revealed that GCTB is highly heterogeneous, both intraand intertumoral, and its precise cellular origin is unclear. To address these challenges, I utilized Single-cell ATAC + Gene expression profiling and further integrated these results with reference data from osteogenic differentiation. Marker expression, transcription factor activity, gene set ontology analysis, and correlation to bulk data show that H3.3-G34W can lead to a different phenotype in each GCTB case which is resembled by a different stage of differentiation of the stromal cells. I identified four distinct stromal subpopulations, of which one resembles pre-osteoblasts, and three were more advanced in differentiation. While the more differentiated stromal populations differ in their identity between patients, every patient has a precursor-like population,
+          which I postulate could constitute the cell-of-origin.
 
-# Experience Section
-# experience_title: Experience
+      - layout: left
+        border: weak
+        name: Universities of Salzburg and Linz
+        dates: 20015 - 2018
+        qualification: B.Sc. Molecular Biosciences (GPA 1.7)
+        quote: >
+          “The Impact of Exosome-Depleted FBS on the Proliferation and Differentiation Characteristics of SAOS-GFP and oMSC cells”
 
-# Education Section
-# educaton_title: Education
+        description: | # this will include new lines to allow paragraphs
+          “The Impact of Exosome-Depleted FBS on the Proliferation and Differentiation Characteristics of SAOS-GFP and oMSC cells”
 
-# More Section
-# more_title: A Little More About Me
-more_content: | # this will include new lines to allow paragraphs
-  Outside of work, I am all about the outdoors and challenging myself physically. I climb, crossfit, and hike up every mountain I can find. 
+          This bachelor laid the foundation for my further education. It included a broad variety of topics, ranging from traditional cell biology to chemical analysis.
 
-  My current passion is running - I recently completed a 50k ultra marathon. 
 
-  To balance myself out I also play the piano. I started when I was 5 years old, and could never really leave it be. 
+  - title: Away from the desk
+    layout: text
+    content: Outside of work, I am all about the outdoors and challenging myself physically. I climb, crossfit, and hike up every mountain I can find. 
+      My current passion is running - I recently completed a 50k ultra marathon. 
+      To balance myself out I also play the piano. I started when I was 5 years old, and could never really leave it be. 
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 
 # Build settings
 remote_theme: sproogen/resume-theme
